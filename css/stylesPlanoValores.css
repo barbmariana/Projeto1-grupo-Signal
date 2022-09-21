@@ -161,8 +161,8 @@ nav img{
     flex-direction: column;
     text-align: center;
     
-    margin: 25px 0;
-    height: 60px;
+    margin: 32px 0 25px 0;
+    height: 65px;
     color: #fff;
     font-weight: 600;
     padding: 4px;
