@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    border: 1px solid #E2DDDD;
+}
+nav{
+    margin: 0 160px 0 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+nav img{
+    width: 120px;
+    height: 50px;
+
+}
+#menubox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+#menubox li{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+    padding-right: 30px;
+}
+.container{
+    margin: 0 160px;
+}
+.mainBanner, .businessPlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    background: url(../img/bgPlanoValores.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 550px;
+    
+}
+.mainBanner p{
+    text-align: center;
+    font-size: 45pt;
+    width: 50%;
+    color: #fff;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 64px 0;
+}
+.cardPlans{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 450px;
+    height: 500px;
+    
+    background: #F5F5F5;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.397);
+
+    margin: 32px;
+
+    border-top: 16px solid #557AB5;
+}
+.cardValue{
+    text-align: center;
+
+    margin: 32px 0;
+    padding: 8px;
+
+    font-size: 32pt;
+    width: 100%;
+
+    background: #557AB5;
+}
+.cardContent{
+    margin: 16px 0;
+}
+.cardValue{
+    margin: 32px 0;
+    font-weight: 600;
+    color: #fff;
+}
+.cardContent h1, p{
+    text-align: center;
+    margin: 8px 0;
+}
+.cardContent h1{
+    font-size: 24pt;
+    color: #557AB5;
+}
+.cardContent p{
+    font-size: 15pt;
+    font-weight: 600;
+}
+.cardDescription{
+    width: 85%;
+}
+.cardPlans button{
+    margin: 16px 0;
+    background: #557AB5;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.438);
+    color: #fff;
+    border: 0;
+    
+    width: 160px;
+    height: 45px;
+
+    font-size: 18pt;
+    font-weight: 600;
+
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+.cardPlans button:hover{
+   background: #344F75;
+   transform: scale(1.05);
+   
+}
+.cardPlans button:active{
+    transform: scale(0.98);
+}
+/* Card 2 por ter campos a mais terá que ter a margin redefinida */
+.cardPlusContent{
+    color: #557AB5;
+}
+.cardValuePlus {
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 8px;
+
+    color: #fff;
+    font-weight: 600;
+
+    font-size: 32pt;
+    width: 100%;
+
+    background: #557AB5;
+}
+
+/* CARD 3 EVENTO COM DISCONTO NO CARD */
+
+.cardDiscont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    margin: 25px 0;
+    height: 60px;
+    color: #fff;
+    font-weight: 600;
+    padding: 4px;
+    font-size: 32pt;
+    width: 100%;
+
+    background: #557AB5;
+}
+.cardDiscont span:first-child{
+    font-size: 12pt;
+    text-decoration: line-through;
+    color: yellow;
+}
+.cardDiscont span:last-child{
+    font-size: 23pt;
+    padding: 4px;
+}
+.businessPlan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/bgPlanoEmpresa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.businessPlan p{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 600;
+    width: 55%;
+    color: #fff;
+}
+.businessPlan button{
+    font-size: 25pt;
+    font-weight: 600;
+    color: #fff;
+
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.5);
+
+    background: rgba(114, 165, 245, 0.77);
+    margin-top: 32px;
+    padding: 32px;
+    border-radius: 100px;
+    width: 300px;
+
+    border: 0;
+
+    transition: all 0.2s;
+}
+.businessPlan button:hover{
+    background: rgb(114, 164, 245);
+}
