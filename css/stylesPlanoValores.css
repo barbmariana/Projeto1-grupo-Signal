@@ -62,6 +62,7 @@ nav img{
     display: flex;
     flex-direction: row;
     margin: 64px 0;
+    
 }
 .cardPlans{
     display: flex;
