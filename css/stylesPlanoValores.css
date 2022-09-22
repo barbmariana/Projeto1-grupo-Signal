@@ -1,27 +1,32 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
+}
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 header{
     width: 100%;
     height: 50px;
-    box-sizing: border-box;
     display: flex;
     background-color: white;
-    border: 1px solid #E2DDDD;
+    border-bottom: 1px solid #E2DDDD;
 }
 nav{
-    margin: 0 160px 0 160px;
+    /* margin: 0 100px 0 100px; */
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 nav img{
     width: 120px;
     height: 50px;
+    margin-left: -150px;
 
 }
 #menubox{
@@ -29,12 +34,23 @@ nav img{
     flex-direction: row;
     align-items: center;
     list-style: none;
+    margin-right: -150px;
+
 }
 
 #menubox li{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 15px;
-    padding-right: 30px;
+    padding-right: 15px;
+    font-weight: 400;
+    text-shadow: 0.1em 0.1em 0.2em #00000020 ;
+}
+#contato{
+    background-color: #344F75;
+    color: white;
+     padding: 5px 0px 5px 10px ;
+     border-radius: 2px;
+    box-shadow: 0.1em 0.2em 0.2em #00000020 ;
 }
 .container{
     margin: 0 160px;
@@ -53,7 +69,9 @@ nav img{
     
 }
 .mainBanner p{
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
+    font-weight: 600;
     font-size: 45pt;
     width: 50%;
     color: #fff;
@@ -99,9 +117,11 @@ nav img{
     color: #fff;
 }
 .cardContent h1, p{
+    font-family: Jost, sans-serif;
     text-align: center;
     margin: 8px 0;
 }
+
 .cardContent h1{
     font-size: 24pt;
     color: #557AB5;
@@ -191,11 +211,12 @@ nav img{
     background-position: center;
 }
 .businessPlan p{
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 200px;
     text-align: center;
     font-size: 35pt;
     font-weight: 600;
-    width: 55%;
+    width: 65%;
     color: #fff;
 }
 .businessPlan button{
@@ -217,4 +238,42 @@ nav img{
 }
 .businessPlan button:hover{
     background: rgb(114, 164, 245);
+}
+footer{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid #E2DDDD; */
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: white;
+    border-top: 1px solid #E2DDDD;
+}
+#footer1 h2{
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+}
+#footer1 h3{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.373);
+    font-size: 15px;
+
+}
+#footer2 h3{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.373);
+    font-size: 15px;
+
+
+}
+#footer3 h3{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.373);
+    font-size: 15px;
+
 }
