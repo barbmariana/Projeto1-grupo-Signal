@@ -125,17 +125,116 @@ nav img{
     align-items: center;
     background-color: white;
     border-bottom: 1px solid #E2DDDD;
+    font-family: Jost, sans-serif;
 }
-#secao3 img{
+#card1{
+    height: 350px;
+    width: 300px;
+    background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.imgstudent{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: -50px;
+    top: 15px;
+    box-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.596) ;
+    border-radius: 100%;
+
+
+}
+.infostudent{
+    margin-left: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.63);
+
+}
+.infostudent h4{
+    margin-bottom: -15px;
+    font-size: 15px;
+    color:white;
+
+}
+.commentstudent{
+    width: 70%;
+    margin: 45px;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    color: white;
+}
+#card2{
+    height: 350px;
+    width: 300px;
+    background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
+    margin: 0 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card3{
+    height: 350px;
+    width: 300px;
+    background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#card1, #card2, #card2{
+    /* margin-right: 80px; */
+}
+/* #secao3 img{
     width: 1100px;
     height: 300px;
-}
+} */
 #secao4{
     width: 100%;
     height: 500px;
     display: flex;
     background-color: white;
     border-bottom: 1px solid #E2DDDD;
+    justify-content: center;
+    align-items: center;
+}
+.quebracab{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.quebracab img{
+    height: 480px;
+    width: 480px;
+}
+.boxes{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color:#344F75;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color:#72A5F5;
+
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color:#557AB5;
+
 }
 footer{
     width: 100%;
