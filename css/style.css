@@ -73,7 +73,7 @@ nav img{
     margin-right: 50px;
 }
 #conteudo2{
-    margin: 0 0 0 80px;
+    margin: 10px 0 80px 30px;
     font-family: 'Jost', sans-serif;
     width: 379px;
     display: flex;
@@ -83,7 +83,7 @@ nav img{
     text-align: center;
 }
 #conteudo2 h1{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-weight: 800;
     font-size: 50px;
     text-shadow: 0.1em 0.1em 0.1em #00000023  ;
