@@ -51,7 +51,13 @@ nav img{
      border-radius: 2px;
     box-shadow: 0.1em 0.2em 0.2em #00000020 ;
 }
-
+a{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+ }
 #conteudoprincipal{
     display: flex;
     width: 100%;
@@ -135,7 +141,8 @@ nav img{
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 3px;
-    border: 1px solid rgba(12, 126, 192, 0.274);       position: relative;
+    border: 1px solid rgba(12, 126, 192, 0.274);       
+    position: relative;
     display: flex;
     flex-direction: column;
 
@@ -181,7 +188,8 @@ nav img{
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 3px;
-    border: 1px solid rgba(12, 126, 192, 0.274);       margin: 0 100px;
+    border: 1px solid rgba(12, 126, 192, 0.274);       
+    margin: 0 100px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -194,7 +202,8 @@ nav img{
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 3px;
-    border: 1px solid rgba(12, 126, 192, 0.274);       position: relative;
+    border: 1px solid rgba(12, 126, 192, 0.274);       
+    position: relative;
     display: flex;
     flex-direction: column;
 }
