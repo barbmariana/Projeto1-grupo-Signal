@@ -23,6 +23,14 @@ nav{
     justify-content: space-around;
 
 }
+nav a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s;
+}
+nav a:hover{
+    color: #557AB5;
+}
 nav img{
     width: 120px;
     height: 50px;
@@ -88,7 +96,7 @@ nav img{
     flex-direction: column;
 
     width: 450px;
-    height: 500px;
+    height: 450px;
     
     background: #F5F5F5;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.397);
@@ -114,6 +122,7 @@ nav img{
 .cardValue{
     margin: 32px 0;
     font-weight: 600;
+    font-size: 25pt;
     color: #fff;
 }
 .cardContent h1, p{
@@ -123,15 +132,16 @@ nav img{
 }
 
 .cardContent h1{
-    font-size: 24pt;
+    font-size: 18pt;
     color: #557AB5;
 }
 .cardContent p{
-    font-size: 15pt;
+    font-size: 12pt;
     font-weight: 600;
 }
 .cardDescription{
-    width: 85%;
+    width: 95%;
+    font-size: 10pt;
 }
 .cardPlans button{
     margin: 16px 0;
@@ -169,7 +179,7 @@ nav img{
     color: #fff;
     font-weight: 600;
 
-    font-size: 32pt;
+    font-size: 25pt;
     width: 100%;
 
     background: #557AB5;

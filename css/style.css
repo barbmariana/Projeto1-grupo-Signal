@@ -22,6 +22,14 @@ nav{
     justify-content: space-around;
 
 }
+nav a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s;
+}
+nav a:hover{
+    color: #557AB5;
+}
 nav img{
     width: 120px;
     height: 50px;
