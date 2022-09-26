@@ -1,26 +1,19 @@
 *{
     box-sizing: border-box;
-<<<<<<< HEAD
-    
-}
-=======
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-
-
-/* MENU */
-
->>>>>>> ffba138aa1ee017c243e7a90adc67182d42de1ff
 body{
     margin: 0 0 0 0;
     display: flex;
     flex-direction: column;
     width: 100%;
-<<<<<<< HEAD
     overflow-x: hidden;
-=======
->>>>>>> ffba138aa1ee017c243e7a90adc67182d42de1ff
 }
+
+
+/* MENU */
+
+
 header{
     width: 100%;
     height: 50px;
@@ -36,7 +29,6 @@ nav{
     justify-content: space-around;
 
 }
-<<<<<<< HEAD
 nav a{
     text-decoration: none;
     color: #000;
@@ -45,8 +37,6 @@ nav a{
 nav a:hover{
     color: #557AB5;
 }
-=======
->>>>>>> ffba138aa1ee017c243e7a90adc67182d42de1ff
 nav img{
     width: 120px;
     height: 50px;
@@ -69,10 +59,6 @@ nav img{
     font-weight: 400;
     text-shadow: 0.1em 0.1em 0.2em #00000020 ;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> ffba138aa1ee017c243e7a90adc67182d42de1ff
 #contato{
     background-color: #344F75;
     color: white;
@@ -80,8 +66,18 @@ nav img{
      border-radius: 2px;
     box-shadow: 0.1em 0.2em 0.2em #00000020 ;
 }
-<<<<<<< HEAD
-=======
+a{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+ }
+
+#contato a:visited{
+     color:white;
+}
+
 
 
 /*  Corpo */
@@ -110,12 +106,6 @@ align-items: center;
 width: 50%;
 height: 300px;
 }
-
-
-
-
-
-
 
 
 
@@ -158,4 +148,3 @@ footer{
     font-size: 15px;
 
 }
->>>>>>> ffba138aa1ee017c243e7a90adc67182d42de1ff
