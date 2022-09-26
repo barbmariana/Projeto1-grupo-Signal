@@ -1,38 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styleContato.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signal</title>
+    <link rel="stylesheet" href="./css/styleContato.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;800&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;800&display=swap");
     </style>
 </head>
+
 <body>
     <header>
+        <!-- here goes de navbar of all the pages -->
         <nav>
-            <a href="/index.html"><img src="./img/Logo.png" alt="logo"></a>
-            <ul id=menubox>
+            <a href="/index.html"><img src="./img/Logo.png" alt="logo" /></a>
+            <ul id="menubox">
                 <li>Sobre Signal</li>
                 <a href="./planoValores.html">
                     <li>Planos/Valores</li>
                 </a>
-                <a href="./equipe.html">
-                    <li>Equipe</li>
-                </a>
-                <a href="./contato.html">
-                    <div id="contato">
+                <li>Equipe</li>
+                <div id="contato">
+                    <a href="./contato.html">
                         <li>Contato</li>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </ul>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        <h2 class="meu_h2">
+            Tem alguma dúvida ou algum problema? A gente resolve para você!
+        </h2>
+        <div class="contatoss">
+            <h4>Contatos</h4>
+            <h4>(21) 5555-5555</h4>
+            <h4>faleconosco@signal.com.br</h4>
+            <h4>Rua 24 de Maio, 200, Riachuelo.</h4>
+            <h4>Nossas Redes:</h4>
+        </div>
+
+        
+                <div class="formulario">
+                    <form>
+                        <label>Nome:</label><br />
+                        <input type="text" placeholder="Digite seu nome" />
+                    </form>
+                    <br />
+                    <form>
+                        <label>Telefone:</label><br />
+                        <input type="text" placeholder="Digite seu número" />
+                    </form>
+                    <br />
+                    <form>
+                        <label>Email:</label><br />
+                        <input type="text" placeholder="Digite seu email" />
+                    </form>
+                    <br />
+                    <h3>Mensagem</h3>
+                    <textarea name="mensagem" id="" cols="24" rows="5"></textarea>
+                    <br />
+
+                    <input type="submit" value="Enviar Mensagem" />
+                    <br />
+                </div>
+    </main>
+
+    <footer>
+        <div id="footer1">
+            <!-- here goes de footer of all the pages -->
+            <h2>Signal</h2>
+            <h3>Sobre Signal</h3>
+            <h3>Planos e Valores</h3>
+            <h3>Equipe</h3>
+            <h3>Contato</h3>
+        </div>
+        <div id="footer2">
+            <h3>Fale Conosco</h3>
+            <h3>Rua 24 de Maio, 200, Riachuelo</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3072256636356!2d-43.257257885034264!3d-22.902036385014235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997dd457319835%3A0x8e00f824df6ef44a!2sR.%20Vinte%20e%20Quatro%20de%20Maio%2C%20400%20-%20Riachuelo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020950-090!5e0!3m2!1sen!2sbr!4v1663795627094!5m2!1sen!2sbr"
+                width="200" height="200" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="footer3">
+            <h3>Nossas Redes</h3>
+        </div>
+    </footer>
 </body>
+
 </html>
