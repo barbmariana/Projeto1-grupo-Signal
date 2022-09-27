@@ -170,6 +170,9 @@ a:visited {
 
     border-radius: 8px;
     transition: all 0.2s;
+
+    cursor: pointer;
+
 }
 .cardPlans button:hover{
    background: #557AB5;
@@ -257,22 +260,27 @@ a:visited {
     border: 0;
 
     transition: all 0.2s;
+    cursor: pointer;
+
 }
 .businessPlan button:hover{
     background: rgb(114, 164, 245);
 }
+
+
+
+/* Footer */
+
 footer{
     width: 100%;
     height: 400px;
     /* border: 1px solid #E2DDDD; */
     display: flex;
-    margin-top: 5px;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-    background-color: white;
-    border-top: 1px solid #E2DDDD;
 }
+
 #footer1 h2{
     font-family: 'Koulen', cursive;
     font-size: 30px;
@@ -292,10 +300,22 @@ footer{
 
 
 }
+#footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 #footer3 h3{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: 200;
     color: rgba(0, 0, 0, 0.373);
     font-size: 15px;
 
+
+}
+#footer3 img{
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
 }

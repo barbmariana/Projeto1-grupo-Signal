@@ -141,10 +141,22 @@ footer{
 
 
 }
+#footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 #footer3 h3{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: 200;
     color: rgba(0, 0, 0, 0.373);
     font-size: 15px;
 
+
+}
+#footer3 img{
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
 }
