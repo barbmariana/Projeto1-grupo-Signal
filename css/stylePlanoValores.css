@@ -115,7 +115,7 @@ a:visited {
 
     margin: 32px;
 
-    border-top: 16px solid #557AB5;
+    border-top: 16px solid #344F75;
 }
 .cardValue{
     text-align: center;
@@ -126,7 +126,7 @@ a:visited {
     font-size: 32pt;
     width: 100%;
 
-    background: #557AB5;
+    background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
 }
 .cardContent{
     margin: 16px 0;
@@ -145,7 +145,7 @@ a:visited {
 
 .cardContent h1{
     font-size: 18pt;
-    color: #557AB5;
+    color: #344F75;
 }
 .cardContent p{
     font-size: 12pt;
@@ -157,7 +157,7 @@ a:visited {
 }
 .cardPlans button{
     margin: 16px 0;
-    background: #557AB5;
+    background: #344F75;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.438);
     color: #fff;
     border: 0;
@@ -172,7 +172,7 @@ a:visited {
     transition: all 0.2s;
 }
 .cardPlans button:hover{
-   background: #344F75;
+   background: #557AB5;
    transform: scale(1.05);
    
 }
@@ -181,7 +181,7 @@ a:visited {
 }
 /* Card 2 por ter campos a mais terá que ter a margin redefinida */
 .cardPlusContent{
-    color: #557AB5;
+    color: #344F75;
 }
 .cardValuePlus {
     text-align: center;
@@ -194,7 +194,7 @@ a:visited {
     font-size: 25pt;
     width: 100%;
 
-    background: #557AB5;
+    background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
 }
 
 /* CARD 3 EVENTO COM DISCONTO NO CARD */
@@ -212,7 +212,7 @@ a:visited {
     font-size: 32pt;
     width: 100%;
 
-    background: #557AB5;
+    background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
 }
 .cardDiscont span:first-child{
     font-size: 12pt;
@@ -248,7 +248,7 @@ a:visited {
 
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.5);
 
-    background: rgba(114, 165, 245, 0.77);
+    background: #344f75af;
     margin-top: 32px;
     padding: 32px;
     border-radius: 100px;
