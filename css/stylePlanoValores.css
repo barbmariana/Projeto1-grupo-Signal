@@ -279,6 +279,8 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
+    border-top: 1px solid #E2DDDD;
+
 }
 
 #footer1 h2{
