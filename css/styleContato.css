@@ -102,37 +102,75 @@ main {
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 400px;
+  width: 50%;
+  height: 500px;
 }
 
 .contatoss {
-  background-color: #344f75;
+  box-sizing: border-box;
+  padding: 50px 50px;
+  background-image: linear-gradient(-233deg,#192436, #344F75, #557AB5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 3px;
+  border: 1px solid rgba(12, 126, 192, 0.274); 
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 50%;
+  width: 40%;
   height: 400px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-shadow:0 8px 32px 0 rgba(31, 38, 135, 0.37) ;
+}
+.contatoss h4{
+  margin:0;
+  margin-bottom: 3px;
+}
+.nossasredes{
+ padding-top: 140px;
+
 }
 
-.redes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+.contatoss img {
+  height: 30px;
+  width: 30px;
+  margin-left: 3px;
+  margin-top: 10px;
 }
 
 .formulario {
-  background-color: #e2dddd;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color:#9c9c9c;
+  border-radius: 3px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  text-align: center;
+  width: 60%;
   height: 400px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  font-size: 14px;
+}
+input, textarea{
+  width: 250px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff6e;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+textarea{
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 /* Rodapé */
