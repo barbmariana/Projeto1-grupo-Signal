@@ -92,10 +92,10 @@ main {
   color: #344f75;
   padding: 50px;
   text-align: center;
-  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-weight: 800;
   font-size: 30px;
   padding-right: 15px;
-  font-weight: 400;
   text-shadow: 0.1em 0.1em 0.2em #00000020;
 }
 
@@ -115,34 +115,35 @@ main {
   -webkit-backdrop-filter: blur( 13.5px );
   border-radius: 3px;
   border: 1px solid rgba(12, 126, 192, 0.274); 
-  color: white;
   display: flex;
   flex-direction: column;
   width: 40%;
   height: 400px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  letter-spacing: 3px;
-  text-shadow:0 8px 32px 0 rgba(31, 38, 135, 0.37) ;
 }
 .contatoss h4{
-  margin:0;
+  margin:2px;
+  font-size: 14px;
   margin-bottom: 3px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow:0.1em 0.1em 0.2em rgba(0, 0, 0, 0.418) ;
+  font-weight: 400;
+
 }
 .nossasredes{
- padding-top: 140px;
+ padding-top: 90px;
 
 }
 
 .contatoss img {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   margin-left: 3px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .formulario {
-  padding: 50px 50px;
   box-sizing: border-box;
   background-color: #ffffff;
   color:#9c9c9c;
@@ -150,27 +151,39 @@ main {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 40px 0;
   width: 60%;
   height: 400px;
 }
 form{
+  font-family: "Jost", sans-serif;
   display: flex;
   flex-direction: column;
-  padding:0;
   font-size: 14px;
 }
+input{
+ margin: 2px 0;
+  width: 230px;
+
+}
 input, textarea{
-  width: 250px;
+
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #ffffff6e;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
 }
 textarea{
-  height: 100px;
-  margin-bottom: 10px;
+  font-family: "Jost", sans-serif;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 2px;
+}
+button{
+  background: linear-gradient(-233deg,#192436, #344F75, #557AB5);
 }
 
 /* Rodapé */
