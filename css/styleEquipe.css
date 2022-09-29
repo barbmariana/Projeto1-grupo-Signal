@@ -73,6 +73,28 @@ a:visited {
      color:white;
 }
 /*Equipe*/
+
+.titulo{
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1{
+    font-size: 45px;
+    color: #344f75;
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    text-shadow: 0.1em 0.1em 0.1em #00000032;
+
+}
+
+
 .div_geral{
     display: flex;
     justify-content: center;
@@ -90,13 +112,10 @@ a:visited {
 
 }
 
-.titulo{
- height: 50px;
- text-align: center;
-}
+
 
 main{
-    height:1000px
+    height:1100px
 }
 .div_geral{
 height: 400px;
