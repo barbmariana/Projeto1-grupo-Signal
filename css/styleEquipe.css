@@ -72,7 +72,78 @@ a:visited {
 #contato a:visited{
      color:white;
 }
+/*Equipe*/
+.div_geral{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.div_blocos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.icones {
+    width: 20px;
+    height: 20px;
 
+}
+
+.titulo{
+ height: 50px;
+ text-align: center;
+}
+
+main{
+    height: 1000px;
+}
+
+.div_geral{
+height: 400px;
+padding-top: 65px;
+text-align: center;
+}
+
+.minha-div-ruan {
+  border: solid 5px #72a5f5;
+  background-color: #344f75;
+  width: 400px;
+  padding-top: 50px;
+}
+.minha-div-ruan img {
+  border-radius: 100%;
+  
+}
+.minha-div-mariana {
+  border: solid 5px #72a5f5;
+  background-color: #344f75;
+  width: 400px;
+  padding-top: 50px;
+}
+.minha-div-mariana img {
+  border-radius: 100%;
+}
+
+.minha-div-marcelle {
+  border: solid 5px #72a5f5;
+  background-color: #344f75;
+  width: 400px;
+  padding-top: 50px;
+}
+.minha-div-marcelle img {
+  border-radius: 100%;
+}
+
+.minha-div-aline {
+  border: solid 5px #72a5f5;
+  background-color: #344f75;
+  width: 400px;
+  padding-top: 50px;
+}
+.minha-div-aline img {
+  border-radius: 100%;
+}
 /* Footer */
 
 footer{
