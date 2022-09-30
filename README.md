@@ -13,7 +13,7 @@ Helping a micro-entrepreneur by developing a web platform to publicize their bus
 ##  Atribuições	🏷️
 
 Ruan - Co-Facilitador, design e code da página Planos e Valores. 
-Mariana - Gestora de Gente e Engajamento, design e code de header, footer e página Home. 
+Mariana - Gestora de Gente e Engajamento, design e página Home. 
 Marcelle - Gestora de conhecimento, página Contato.
 Emmely - Colaboradora, página Equipe. 
 
