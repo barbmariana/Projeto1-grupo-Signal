@@ -69,9 +69,10 @@ a:visited {
     color: black;
  }
 
-#contato a:visited{
-     color:white;
+ #contatolink:visited{
+    color:white;
 }
+
 .container{
     margin: 0 160px;
 }
