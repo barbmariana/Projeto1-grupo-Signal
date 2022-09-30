@@ -71,7 +71,7 @@ a:visited {
     color: black;
  }
 
-#contato a:visited{
+#contato:visited{
      color:white;
 }
 
