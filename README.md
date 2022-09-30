@@ -23,8 +23,11 @@ Emmely - Colaboradora, página Equipe.
 (EN)
 
 Ruan - Co-Facilitator, designer and "Plans" page developer
-Mariana - People and Engagement Manager, designer and header, footer and "Home" page developer.
+</br>
+Mariana - People and Engagement Manager, designer and "Home" page developer.
+</br>
 Marcelle - Knowledge Manager, "Contact" page.
+</br>
 Emmely - Contributor, "Team" page.
 
 
